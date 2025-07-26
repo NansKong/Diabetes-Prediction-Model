@@ -38,7 +38,8 @@ This project builds a machine learning pipeline for predicting diabetes onset us
 
 ## Project Structure
 
-```diabetes-ml/
+```
+diabetes-ml/
 │
 ├── data/
 │ ├── raw/ # Original raw dataset CSV
@@ -51,6 +52,6 @@ This project builds a machine learning pipeline for predicting diabetes onset us
 │ ├── 2_exploratory_data_analysis.ipynb # Exploratory data analysis (EDA)
 │ └── 3_model_building_training.ipynb # Model training and evaluation
 │
-└── README.md # Project documentation```
+└── README.md # Project documentation
 
 
