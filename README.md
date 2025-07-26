@@ -38,20 +38,19 @@ This project builds a machine learning pipeline for predicting diabetes onset us
 
 ## Project Structure
 
-''' diabetes-ml/
+diabetes-ml/
 │
 ├── data/
-│   ├── raw/             # Original raw dataset CSV
-│   └── processed/       # Scaled and feature-engineered datasets
+│ ├── raw/ # Original raw dataset CSV
+│ └── processed/ # Scaled and feature-engineered datasets
 │
-├── models/              # Saved trained models and scalers
+├── models/ # Saved trained models and scalers
 │
-├── notebooks/           # Jupyter notebooks for each phase
-│   ├── 1_data_preprocessing.ipynb
-│   ├── 2_exploratory_data_analysis.ipynb
-│   └── 3_model_building_training.ipynb
+├── notebooks/ # Jupyter notebooks for each phase
+│ ├── 1_data_preprocessing.ipynb # Data cleaning and preprocessing
+│ ├── 2_exploratory_data_analysis.ipynb # Exploratory data analysis (EDA)
+│ └── 3_model_building_training.ipynb # Model training and evaluation
 │
-└── README.md            # Project documentation
-'''
+└── README.md # Project documentation
 
 
